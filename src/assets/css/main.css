@@ -216,3 +216,15 @@ font-size: 0.8rem;
 .close__button:focus{
   outline-width: 0;
 }
+.alert__text{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+}
+.alert__image{
+  width: 140px;
+  height: auto;
+}
